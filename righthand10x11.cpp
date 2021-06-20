@@ -71,7 +71,7 @@ int main()
            }
            else
            {
-               maze_t[i][j] = 'Û';
+               maze_t[i][j] = 'Ã›';
            }
        }
     }
