@@ -22,8 +22,8 @@ sol = zeros(DIMx, DIMy);
 %% Call to recursive function
     [a, k] = solveMazeUtil(maze, x0, y0,sol) ;
     if(a == 0)    
-        disp("There is not a Solution");
+        disp("No");
     else
-        disp("Found");
+        disp("Yes");
     end 
 
